@@ -1,3 +1,6 @@
+from ast import List
+
+
 class Solution:
   def removeDuplicates(self, nums: List[int]) -> int:
     i = 0
