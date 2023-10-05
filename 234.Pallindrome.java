@@ -41,7 +41,6 @@ class Solution {
       prev = head;
       head = next;
     }
-
     return prev;
   }
 }
