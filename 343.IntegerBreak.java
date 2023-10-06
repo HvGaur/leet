@@ -12,7 +12,6 @@ class Solution {
       ans *= 3;
     }
     ans *= n;
-
     return ans;
   }
 }
