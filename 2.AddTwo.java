@@ -29,7 +29,6 @@ class Solution{
             l3.next = newnode;
             l3 = l3.next;
         }
-
         return dummy.next;
     }
 }
