@@ -35,7 +35,6 @@ class Solution {
     }
     return l;
   }
-
   // Find the first index l s.t A.get(l) >= target
   
   // Returns A.size() if can't find
