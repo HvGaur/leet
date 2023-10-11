@@ -37,6 +37,7 @@ class Solution {
   }
 
   // Find the first index l s.t A.get(l) >= target
+  
   // Returns A.size() if can't find
   private int firstGreaterEqual(List<Integer> A, int target) {
     int l = 0;
