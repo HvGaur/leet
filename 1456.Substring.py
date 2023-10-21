@@ -10,5 +10,4 @@ class Solution:
       if i >= k and s[i - k] in kVowels:
         maxi -= 1
       ans = max(ans, maxi)
-
     return ans
