@@ -11,7 +11,6 @@ class Solution {
           --count0;
       ans = Math.max(ans, r - l);
     }
-
     return ans;
   }
 }
