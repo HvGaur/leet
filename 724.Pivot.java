@@ -1,4 +1,5 @@
 class Solution {
+    
   public int pivotIndex(int[] nums) {
     final int sum = Arrays.stream(nums).sum();
     int prefix = 0;
