@@ -6,7 +6,6 @@ class Solution {
       return new ArrayList<>();
 
     List<Integer> ans = new ArrayList<>();
-    
     Queue<TreeNode> q = new ArrayDeque<>(Arrays.asList(root));
 
     while (!q.isEmpty()) {
