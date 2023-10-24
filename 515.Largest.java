@@ -1,11 +1,12 @@
 class Solution {
 
   public List<Integer> largestValues(TreeNode root) {
-    
+
     if (root == null)
       return new ArrayList<>();
 
     List<Integer> ans = new ArrayList<>();
+    
     Queue<TreeNode> q = new ArrayDeque<>(Arrays.asList(root));
 
     while (!q.isEmpty()) {
