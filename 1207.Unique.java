@@ -1,4 +1,5 @@
 class Solution {
+  
   public boolean uniqueOccurrences(int[] arr) {
     Map<Integer, Integer> count = new HashMap<>();
     Set<Integer> occurrences = new HashSet<>();
