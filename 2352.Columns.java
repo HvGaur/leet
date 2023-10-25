@@ -1,5 +1,7 @@
 class Solution {
   public int equalPairs(int[][] grid) {
+
+    
     final int n = grid.length;
     int ans = 0;
 
