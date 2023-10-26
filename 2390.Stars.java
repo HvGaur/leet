@@ -1,4 +1,5 @@
 class Solution {
+    
   public String removeStars(String s) {
     StringBuilder sb = new StringBuilder();
     for (final char c : s.toCharArray())
