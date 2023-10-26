@@ -8,7 +8,8 @@ class Solution {
       {
         stack.push(a);
       }
-      else { // a < 0
+      else
+      { // a < 0
         // Destroy previous positive one(s).
         while (!stack.isEmpty() && stack.peek() > 0 && stack.peek() < -a)
           stack.pop();
