@@ -1,10 +1,11 @@
 class Solution {
   public int[] asteroidCollision(int[] asteroids) {
-    
+
     Stack<Integer> stack = new Stack<>();
 
     for (final int a : asteroids)
-      if (a > 0) {
+      if (a > 0) 
+      {
         stack.push(a);
       } else { // a < 0
         // Destroy previous positive one(s).
