@@ -1,5 +1,6 @@
 class Solution {
   public int numFactoredBinaryTrees(int[] arr) {
+    
     final int kMod = 1_000_000_007;
     final int n = arr.length;
     // dp[i] := # of binary trees with arr[i] as root
