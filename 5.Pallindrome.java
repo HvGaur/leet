@@ -16,7 +16,6 @@ class Solution {
     }
 
     return s.substring(indices[0], indices[1] + 1);
-
   }
 
   private int[] extend(final String s, int i, int j) {
