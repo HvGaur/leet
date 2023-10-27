@@ -2,7 +2,6 @@ class Solution {
   public String longestPalindrome(String s) {
     if (s.isEmpty())
       return "";
-
     int[] indices = {0, 0};
 
     for (int i = 0; i < s.length(); ++i) {
@@ -17,7 +16,7 @@ class Solution {
     }
 
     return s.substring(indices[0], indices[1] + 1);
-    
+
   }
 
   private int[] extend(final String s, int i, int j) {
