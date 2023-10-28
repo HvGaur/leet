@@ -9,7 +9,6 @@ class Solution {
       fast = fast.next.next;
     }
 
-    // Delete the middle node
     slow.next = slow.next.next;
     return dummy.next;
   }
