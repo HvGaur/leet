@@ -5,6 +5,5 @@ class RecentCounter {
       q.poll();
     return q.size();
   }
-
   private Queue<Integer> q = new LinkedList<>();
 }
