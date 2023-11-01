@@ -1,5 +1,6 @@
 class Solution {
-  public int maxLevelSum(TreeNode root) {
+  public int maxLevelSum(TreeNode root) 
+  {
     int ans = 1;
     int maxLevelSum = Integer.MIN_VALUE;
     Queue<TreeNode> q = new LinkedList<>(Arrays.asList(root));
