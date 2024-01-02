@@ -1,4 +1,5 @@
-class UnionFind {
+class UnionFind 
+{
   public UnionFind(int n) {
     count = n;
     id = new int[n];
