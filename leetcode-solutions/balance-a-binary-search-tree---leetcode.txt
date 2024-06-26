@@ -1,0 +1,16 @@
+class Solution {
+ public:
+  TreeNode* balanceBST(TreeNode* root) {
+    vector<int> nums;
+    inorder(root, nums);
+    return build(nums, 0, nums.size() - 1);
+  }
+ private:
+  void inorder(TreeNode* root, vector<int>& nums) {
+    if (root == nullptr)
+      return;
+    inorder(root->left, nums);
+    nums.push_back(root->val);
+    inorder(root->right, nums);
+  }
+  // Same as 108. Convert Sorted Array to Binary Search Tree
